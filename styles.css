@@ -364,6 +364,16 @@ main {
     background-size: cover;
 }
 
+.main-sponsor--container {
+    width: 100%;
+    height: 50vh;
 
+    background-image: url('./assets/images/bitcoinbaby\ 1\ \(1\).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
 
 
