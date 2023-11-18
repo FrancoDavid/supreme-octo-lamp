@@ -255,3 +255,115 @@ main {
     font-weight: 700;
 }
 
+.main-product--container {
+    position: relative;
+    height: auto;
+    width: 100%;
+
+    background: var(--black);
+
+    padding: 10px 12px;
+}
+
+.main-product--batata-logo {
+    position: absolute;
+    top: -16px;
+    left: calc(50% - 28px);
+
+    display: inline-block;
+    background-image: url('./assets/images/Group\ 16.svg');
+
+    width: 40.569px;
+    height: 24.008px;
+}
+
+.main-product--title {
+    width: 80%;
+    height: auto;
+    min-width: 280px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.main-product--title h2 {
+    color: var(--just-white);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    margin-bottom: 24px;
+}
+
+.main-product--title p {
+    color: #808080;
+    font-size: 1.4rem;
+}
+
+.product--card-container {
+    width: 100%;
+    height: auto;
+}
+
+.product--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 152px;
+    padding: 14px 12px;
+    margin: 16px auto;
+    background: var(--warm-black);
+    text-align: left;
+}
+
+.product--card span {
+    width: 24px;
+    height: 24px;
+    color: var(--bitcoin-orange);
+
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.clock {
+    background-image: url('./assets/icons/clock\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product--card-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--just-white);
+    margin-bottom: 10px;
+}
+
+.product--card-body {
+    font-size: 1.4rem;
+    color: #808080;
+    line-height: 1.8rem;
+}
+
+.eye {
+    background-image: url('./assets/icons/eye\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dollar {
+    background-image: url('./assets/icons/dollar-sign\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.check {
+    background-image: url('./assets/icons/check-circle\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
